@@ -1,0 +1,7 @@
+@molpha/evm-verifier/=lib/molpha-evm-verifier/src/
+@erc8183/=lib/base-contracts/contracts/
+@hooks/=lib/hook-contracts/contracts/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+solady/=lib/solady/src/
+forge-std/=lib/forge-std/src/

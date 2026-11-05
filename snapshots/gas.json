@@ -1,0 +1,9 @@
+{
+  "ERC8183.complete by an EOA evaluator (baseline)": "124144",
+  "ERC8183.complete through MolphaConditionHook (verifies)": "170677",
+  "ERC8183.fund through MolphaConditionHook (freezes terms)": "208479",
+  "MolphaEvaluator.evaluate pass (complete, fee path)": "173239",
+  "MolphaEvaluator.registerTerms": "215309",
+  "MolphaProofVerifier.verify (ERC-8274)": "22910",
+  "Verifier.verify (reference)": "16897"
+}

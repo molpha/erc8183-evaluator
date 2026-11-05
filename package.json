@@ -1,0 +1,24 @@
+{
+  "name": "molpha-erc8183-evaluator-scenarios",
+  "private": true,
+  "type": "module",
+  "description": "Scenario scripts and offline checks for the Molpha ERC-8183 evaluator",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "preflight": "tsx scenarios/preflight.ts"
+  },
+  "dependencies": {
+    "@anchor-lang/core": "1.2.1",
+    "@molpha/sdk": "0.2.0",
+    "@solana/web3.js": "1.99.0",
+    "bn.js": "5.2.5",
+    "viem": "2.57.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}
